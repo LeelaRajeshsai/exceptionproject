@@ -5,5 +5,5 @@ import com.exceptionHandling.exception.model.Product;
 
 public interface ProductService {
 
-    public Product findbyproductId(Integer pid);
+    public Product findbyproductId(String pid);
 }

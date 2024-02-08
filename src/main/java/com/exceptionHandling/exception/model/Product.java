@@ -4,13 +4,15 @@ import lombok.*;
 
 @Getter
 @Setter
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
-@Data
-public class Product {
-
-    private String pid;
+public class Product
+{
+    private String rajesh;
     private String bookName;
-    private  double price;
+    private Double price;
+    private String rearrage;
+
+
 }

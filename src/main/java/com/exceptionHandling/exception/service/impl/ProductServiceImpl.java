@@ -10,10 +10,10 @@ public class ProductServiceImpl implements ProductService
 
 
     @Override
-    public Product findbyproductId(Integer pid) {
+    public Product findbyproductId(String pid) {
 
-        if (pid == 101) {
-            return new Product("101", "keyboard", 800.0);
+        if (pid == "rajesh") {
+            return new Product("101", "keyboard", 800.0,"yes");
         }
         else {
             //throw Custom Exception
